@@ -106,15 +106,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let user;
 
-  // setTimeout(() => {
-  //   user = new User("Jeff");
-  // }, 2000);
-  // setTimeout(() => {
-  //   user.sendMessage("Sup");
-  //   user.enterRoom("Balls");
-  // }, 4000);
-  // setTimeout(() => {
-  //   user.sendMessage("Eyyyyy");
-  //   user.logout();
-  // }, 6000);
+  setTimeout(() => {
+    user = new User("Jeff");
+  }, 2000);
+  setTimeout(() => {
+    user.sendMessage("Sup");
+    user.enterRoom("Balls");
+  }, 4000);
+  setTimeout(() => {
+    user.sendMessage("Eyyyyy");
+    user.logout();
+  }, 6000);
 });
